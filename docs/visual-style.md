@@ -29,10 +29,10 @@ A dark panel presents one main question in larger white serif type. A cream pane
 
 Use a single reading column for sequential instructions, worksheets, and the 20-minute exercise pages. Use tables for the five approach choices, role comparisons, and simulation inputs/results. Multiple panels or columns are useful only when independent sections can be compared more easily that way. Do not force the reference handout's split lower section onto a sequential exercise.
 
-The table guide and worksheet stay one page each. Keep the student's naming and submission step visible. Supporting materials may use separate pages rather than squeezing text smaller.
+The table guide and worksheet stay one page each. The student working guide uses two pages, suitable for one double-sided sheet. Keep the student's naming and submission step visible. Supporting materials may use separate pages rather than squeezing text smaller.
 
 ## Rebuild and inspect
 
 The [PDF builder](../scripts/build_printables.py) is the shared implementation. Fonts and their accompanying licenses are stored under `assets/fonts/`, so a rebuild does not depend on fonts installed on a student's machine. These are the same typeface families used in the reference handout.
 
-Rebuild all three PDFs with ReportLab, render them to images, and inspect every page. Check that text stays inside the margins, headings and footer lines align, question and deliverable panels are legible, and no page has a clipped or duplicated title. Verify one-page documents and the complete supporting pack before sharing.
+Rebuild the workshop PDFs with ReportLab, render them to images, and inspect every page. Check that text stays inside the margins, headings and footer lines align, question and deliverable panels are legible, and no page has a clipped or duplicated title. Verify one-page documents and the complete supporting pack before sharing.

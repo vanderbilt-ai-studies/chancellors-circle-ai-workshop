@@ -4,6 +4,8 @@ A table workshop for the Chancellor's Circle, with an AI 1010 student helping ea
 
 [GitHub repository](https://github.com/vanderbilt-ai-studies/chancellors-circle-ai-workshop) · [Download the whole kit](https://github.com/vanderbilt-ai-studies/chancellors-circle-ai-workshop/archive/refs/heads/main.zip)
 
+**Students: [print your step-by-step guide](output/pdf/student-guide.pdf).** Two pages; print double-sided for one sheet per student. Keep it beside your laptop during the workshop. [Editable guide](docs/student-guide.md).
+
 ## The task
 
 Choose an industry you know. Explore one important change AI agents could make possible in three to five years. Test what would have to be true. Leave with a one-page scenario brief.
@@ -109,6 +111,7 @@ This shifts the draft's 18-minute open investigation to 20 minutes and shortens 
 ## What is in this repository?
 
 - [Table guide](docs/table-guide.md): the simple participant instructions.
+- [Printable student guide](output/pdf/student-guide.pdf): setup, all five commands, discussion prompts, and the final submission steps.
 - [Student demonstration guide](docs/student-demo.md): short explanations and what to show in Claude Code.
 - [Report out](report-out/README.md): one section per submitted table, with a summary and full analysis.
 - [Submission steps](docs/report-out.md): name your table, review its result, and ask Claude to push it.
@@ -122,7 +125,7 @@ This shifts the draft's 18-minute open investigation to 20 minutes and shortens 
 - [Methods and sources](docs/methods-and-sources.md): the research behind each approach and what we shortened.
 - [Document style](docs/visual-style.md): typography, colors, and layouts shared with the workforce handout.
 - `.claude/skills/`: five short, readable skills with equal standing as starting options. Open one to show what instructions look like.
-- `output/pdf/`: ready-to-print table guide, worksheet, and backup pack.
+- `output/pdf/`: ready-to-print student guide, table guide, worksheet, and backup pack.
 - `outputs/`: your table's local working files. Git ignores these by default.
 
 ## Show what a skill is: a 60-second demonstration

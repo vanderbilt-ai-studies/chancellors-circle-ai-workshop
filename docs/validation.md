@@ -35,3 +35,7 @@ The table guide now uses the revised reasonableness and assumptions questions, r
 ## Shared handout style
 
 The table guide, worksheet, and nine-page backup pack use the visual system from the instructor-provided workforce discussion handout: Caladea headings, Carlito body text, gold labels and numbering, dark question panels, cream deliverable panels, and matching margins. All three were rendered and reviewed, with single-column layouts for sequential work. Typeface files and their original distribution license notices are bundled for reproducible builds. `visual-style.md` records the choices for future documents.
+
+## Printable student working guide
+
+A two-page guide follows the work in order: get ready, explain agents and skills, choose the industry and approach, run the exercise, request the draft, review the summary, name the table, push the report, and verify the submission. It includes all five skill commands, boxed prompts to type into Claude Code, and fallback instructions. Both pages were rendered and visually checked; the PDF is intended for double-sided printing as one sheet per student. The README links it prominently.

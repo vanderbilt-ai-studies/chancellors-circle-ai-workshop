@@ -251,10 +251,70 @@ def exercise(section):
     return title, story
 
 
+
+def student_guide():
+    """Two printable sides in working order, using the same handout typography."""
+    text = (ROOT/'docs/student-guide.md').read_text()
+    pages = text.split('<!-- page-break -->')
+    story = []
+    for page_number, page_text in enumerate(pages):
+        if page_number:
+            story += [NextPageTemplate('section-1'), PageBreak()]
+        lines = page_text.strip().splitlines()
+        i = 0
+        while i < len(lines):
+            line = lines[i].strip()
+            if not line or line.startswith('# '):
+                i += 1
+                continue
+            if line.startswith('```'):
+                code = []
+                i += 1
+                while i < len(lines) and not lines[i].startswith('```'):
+                    code.append(lines[i])
+                    i += 1
+                prompt = Table([[[Label('Type into Claude Code'), p(' '.join(code), 'compact')]]],
+                               colWidths=[WIDTH], hAlign='LEFT')
+                prompt.setStyle(TableStyle([
+                    ('BACKGROUND',(0,0),(-1,-1),CREAM),('BOX',(0,0),(-1,-1),.7,BORDER),
+                    ('LEFTPADDING',(0,0),(-1,-1),10),('RIGHTPADDING',(0,0),(-1,-1),10),
+                    ('TOPPADDING',(0,0),(-1,-1),6),('BOTTOMPADDING',(0,0),(-1,-1),7)]))
+                story += [prompt, Spacer(1,6)]
+            elif line.startswith('|'):
+                rows = []
+                while i < len(lines) and lines[i].strip().startswith('|'):
+                    row = [cell.strip() for cell in lines[i].strip().strip('|').split('|')]
+                    if not all(re.fullmatch(r':?-+:?', cell) for cell in row):
+                        rows.append(row)
+                    i += 1
+                story += [grid(rows), Spacer(1,6)]
+                continue
+            elif line.startswith('## '):
+                heading = line[3:]
+                match = re.match(r'(\d+)\. (.*)', heading)
+                story.append(Spacer(1,4))
+                if match:
+                    story.append(numbered(match.group(1), '**'+match.group(2)+'**'))
+                else:
+                    story.append(Label(heading))
+            elif line.startswith('Repository: '):
+                story.append(p(line, 'small'))
+            else:
+                paragraph = line
+                while i+1 < len(lines) and lines[i+1].strip() and not re.match(r'^(#|\||```)', lines[i+1].strip()):
+                    i += 1
+                    paragraph += ' ' + lines[i].strip()
+                story.append(p(paragraph, 'compact'))
+            i += 1
+    return story
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     build('table-guide.pdf', table_guide(), 'What Could Change in an Industry You Know?', 'Table discussion guide')
     build('scenario-worksheet.pdf', worksheet(), 'Our Scenario Brief', 'Table worksheet')
+    build('student-guide.pdf', student_guide(), 'Student AI Guide', 'Student working guide',
+          section_titles=['Student AI Guide: Get Ready and Start', 'Student AI Guide: Guide, Summarize, and Submit'])
     # Each backup section shares the header and callout system; no forced columns.
     pages = []
     case = (ROOT/'materials/advisory-firm-case.md').read_text().split('## Other ways into this case')[0]
