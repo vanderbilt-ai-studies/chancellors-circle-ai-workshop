@@ -31,3 +31,7 @@ The README, table guide, student demonstration guide, and agent instructions off
 ## Named-table publication workflow
 
 The table guide now uses the revised reasonableness and assumptions questions, requests a succinct one-paragraph summary, and ends by naming the table and asking to push the reviewed result. All five skills use the same report template and submission workflow. `report-out/README.md` is generated from actual reports with one section per table; no participant results are fabricated. The publication helper is checked against temporary local Git repositories, including concurrent submissions, identical retries, and filename collisions. This tests Git mechanics without creating fictional submissions in the public repository.
+
+## Shared handout style
+
+The table guide, worksheet, and nine-page backup pack use the visual system from the instructor-provided workforce discussion handout: Caladea headings, Carlito body text, gold labels and numbering, dark question panels, cream deliverable panels, and matching margins. All three were rendered and reviewed, with single-column layouts for sequential work. Typeface files and their original distribution license notices are bundled for reproducible builds. `visual-style.md` records the choices for future documents.

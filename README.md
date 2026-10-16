@@ -120,6 +120,7 @@ This shifts the draft's 18-minute open investigation to 20 minutes and shortens 
 - [Simulation worked example](materials/simulation-worked-example.md) and [calculator](scripts/simulate.py): no external dependencies.
 - [Brief template](templates/scenario-brief.md), [worked brief](examples/scenario-brief.md), and [five sample exercise outputs](examples/approach-outputs.md).
 - [Methods and sources](docs/methods-and-sources.md): the research behind each approach and what we shortened.
+- [Document style](docs/visual-style.md): typography, colors, and layouts shared with the workforce handout.
 - `.claude/skills/`: five short, readable skills with equal standing as starting options. Open one to show what instructions look like.
 - `output/pdf/`: ready-to-print table guide, worksheet, and backup pack.
 - `outputs/`: your table's local working files. Git ignores these by default.
