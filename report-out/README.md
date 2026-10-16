@@ -4,6 +4,14 @@ Each table names itself and contributes one reviewed analysis. Each section belo
 
 Reports are named `[table-name]-[industry]-analysis.md`. See [how to submit](../docs/report-out.md).
 
+## Grid Reliability — Energy
+
+**Approach(es):** Research · **Date:** 2026-10-16
+
+We asked whether homeowners get more reliable power when AI data centers make their own power behind the meter or connect to the shared grid. The evidence says neither choice decides most outages: at least 94% of household outage time comes from local wires, not from a shortage of power plants. Where data centers get power matters most in rare region-wide shortfalls like Winter Storm Uri. Grid-connected data centers that flex their demand, plus home batteries that can island, look most reliable. AI can help by forecasting storms and shifting load. Our biggest uncertainty is whether data center demand forecasts are inflated.
+
+[Read the full analysis](grid-reliability-energy-analysis.md)
+
 ## JACSS — Healthcare Access
 
 **Approach(es):** Simulation, with brief live research · **Date:** 2026-10-16
