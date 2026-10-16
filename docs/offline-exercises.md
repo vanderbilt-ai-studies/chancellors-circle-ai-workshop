@@ -1,6 +1,6 @@
 # If Claude is unavailable
 
-Choose any one of the five approaches below: research, simulation, role playing, forecasting, or problem solving. You can switch if another question becomes more useful; keep the same clock. One person keeps time. Another writes. Use the case, evidence cards, and other resources in the backup pack. The examples are fictional; the source cards describe real studies with limits. Every exercise ends with the same six-part brief.
+Choose any one of the five approaches below: research, simulation, role playing, forecasting, or problem solving. You can switch if another question becomes more useful; keep the same clock. One person keeps time. Another writes. Use the case, evidence cards, and other resources in the backup pack. The examples are fictional; the source cards describe real studies with limits. Every exercise ends with the same six-part brief and a succinct one-paragraph summary. Name your table, then ask the student to save and push the reviewed report using `docs/report-out.md` when access is available.
 
 ## Research: is it happening?
 

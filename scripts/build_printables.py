@@ -84,11 +84,11 @@ def build(name,story):
 def main():
     OUT.mkdir(parents=True,exist_ok=True)
     build('table-guide.pdf',md((ROOT/'docs/table-guide.md').read_text()))
-    story=[p('Our scenario brief','TitleKit'),p('Table: __________   Industry: __________________   Approach: __________________','SmallKit'),p('Future year: __________   Initial expectation: __________________________________','SmallKit')]
+    story=[p('Our scenario brief','TitleKit'),p('Table name: __________   Industry: _________________   Approach: _________________','SmallKit'),p('Future year: __________   Initial expectation: __________________________________','SmallKit')]
     fields=[('1. The change we investigated','What could agents make possible?'),('2. What is happening already?','Name evidence and sources, or mark a gap. Separate table experience.'),('3. A plausible future','What must be true? What could fail? What sign would you watch?'),('4. What people still contribute','What would people and organizations do? One implication for a new graduate?'),('5. Our biggest disagreement or uncertainty','What would help us resolve it?'),('6. What changed in our thinking?','Before ___. Now ___.')]
     for title,hint in fields:
         story += [p(title,'HeadingKit'),p(hint,'SmallKit'),Spacer(1,19)]
-    story += [Spacer(1,6),p('Report: We explored ___. We were surprised by ___. Our biggest uncertainty is ___.','SmallKit')]
+    story += [Spacer(1,6),p('Collect your ideas. Ask Claude for one succinct paragraph, review it, then name your table and ask the student to push the report to Report out.','SmallKit')]
     build('scenario-worksheet.pdf',story)
     styles['BodyKit'].fontSize=10
     styles['BodyKit'].leading=13
@@ -103,7 +103,7 @@ def main():
         title, body=section.split('\n',1)
         exercise=[p(title,'TitleKit')]
         exercise += [p(line.strip(),'ExerciseKit') for line in body.splitlines() if line.strip()]
-        exercise += [Spacer(1,15),p('Finish with the six sections: change; evidence; future and assumptions; human contribution; uncertainty; changed thinking.','SmallKit')]
+        exercise += [Spacer(1,15),p('Finish with the six sections and a succinct one-paragraph summary. Name your table, then ask the student to save and push its reviewed report using docs/report-out.md.','SmallKit')]
         pages.append(exercise)
     pages.append(md((ROOT/'materials/simulation-worked-example.md').read_text()))
     pages.append(md((ROOT/'materials/role-cards.md').read_text()+'\n\n'+(ROOT/'materials/constraint-cards.md').read_text()))

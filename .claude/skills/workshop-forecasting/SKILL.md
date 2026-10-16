@@ -37,6 +37,8 @@ Suggest one action useful in both futures, such as developing source-checking ab
 
 Use `templates/scenario-brief.md`. Capture both futures briefly, their separating assumption, signposts, a robust action, and the main uncertainty. Do not report a numerical probability unless a participant supplies one, in which case label it that person's judgment rather than a calibrated estimate.
 
+Collect the table's ideas into a succinct one-paragraph summary and review it together. Ask the table to name itself. Follow `docs/report-out.md` to save `report-out/[table-name]-[industry]-analysis.md`; prompt the student to provide the chosen name and ask for the reviewed results to be committed and pushed. Publish only after that request, and return the verified report link.
+
 ## Basis
 
 This is an introductory scenario comparison informed by UK Government Office for Science Futures Toolkit, not a full foresight process or a statistical forecasting exercise. We shorten the usual scenario development and use two contrasting paths instead of a full matrix. See `docs/methods-and-sources.md`.

@@ -13,18 +13,19 @@ An agent can use tools to research, calculate, and create files. A **skill** is 
 ## Friday, October 16: bring your laptop
 
 - **Meet at 1:45 p.m. Central** at the [Seigenthaler Center](https://maps.app.goo.gl/6peyyH6PKakXd3KA9), next to the Commons Campus. Allow time to get there. Download the kit at check-in and get Claude Code ready on your own laptop. Bring your charger.
-- **Workshop: 2:10–3:00 p.m.** 
+- **Workshop: 2:10–3:00 p.m.**
 - You will help the table work, demonstrate Claude Code and skills, explain what the agent is doing, and contribute your own perspective. Ask Jesse whenever you are unsure.
-- - We **might** join the following session led by Vice Provost Everette Fortner and Dean Matt Johnson-Roberson. Jesse will confirm on site.
+- We **might** join the following session led by Vice Provost Everette Fortner and Dean Matt Johnson-Roberson. Jesse will confirm on site.
 
-## Student guide: do these six things
+## Student guide: do these seven things
 
 1. At check-in, have Claude access and prepare all the skills in this repo. Follow the setup steps below.
 2. Have [the table guide](output/pdf/table-guide.pdf) and [the worksheet](output/pdf/scenario-worksheet.pdf) ready. For printing, the organizer needs one guide per participant and one worksheet per table. Save the [backup pack](output/pdf/backup-pack.pdf) on your laptop.
 3. Ask: **“Which industry do we know? What is one change worth exploring?”** Record the table's first expectation before asking Claude for analysis. If the table is stuck after one minute, offer the prepared advisory-firm case.
 4. Help the table pick **research, simulation, role playing, forecasting, or problem solving**. Show its `SKILL.md` file, then type its `/workshop-...` command into Claude Code. Start a 20-minute timer. Read each question aloud; let people answer before typing.
 5. At minute 16, type **“We have four minutes left. Draft our brief now from what we have.”** Read the draft aloud and correct it together.
-6. Save the brief, then prepare a 30-second report: **“We explored ___. We were surprised by ___. Our biggest uncertainty is ___.”** Follow the organizer's instructions for handing it over. Nothing is sent automatically.
+6. Collect the table's ideas and ask Claude for a succinct, one-paragraph summary. Review and correct it together. Ask the table to **name itself**.
+7. Give Claude the table name and ask it to **save, commit, and push the reviewed results** to [Report out](report-out/README.md). Use the final prompt below. Then share: **“We explored ___. We were surprised by ___. Our biggest uncertainty is ___.”**
 
 ## Choose one of the five workshop approaches
 
@@ -60,7 +61,7 @@ You can change approaches. Say: **“Switch to role playing. Keep our notes. We 
 2. Open Claude Code in the extracted or cloned repository folder: the folder containing `README.md` and `CLAUDE.md`. If using a terminal with Claude Code already installed, change into that folder and run `claude`.
 3. Confirm all five commands are available: `/workshop-research`, `/workshop-simulation`, `/workshop-role-play`, `/workshop-forecasting`, and `/workshop-problem-solving`. If they are missing, use the explicit-file prompt below. Do not spend table time troubleshooting skill discovery.
 4. Do a quick check with the prepared case: invoke a skill and confirm that it asks one question and waits. Ask it to read a source card; if possible, save a practice note in `outputs/` and run the simulation. You do not need to finish a 20-minute exercise during check-in. Use a fresh chat for the actual table.
-5. Check Claude Code sign-in, approved account, power, Wi-Fi, and the backup PDFs. The exercises need no extra package installation, API key, or connector once Claude Code is working. Live research needs web access; each exercise has an offline path. If setup stalls, ask Jesse and use the paper backup.
+5. Check Claude Code sign-in, your GitHub sign-in and repository access for submitting the report, power, Wi-Fi, and the backup PDFs. The exercises need no extra package installation, API key, or connector once Claude Code is working. Live research needs web access; each exercise has an offline path. If setup stalls, ask Jesse and use the paper backup.
 
 Anthropic documents project skills in `.claude/skills/` and the `SKILL.md` format in its [Claude Code skills guide](https://code.claude.com/docs/en/skills). Product and organization settings may affect availability. Setup documentation checked October 15, 2026.
 
@@ -109,6 +110,8 @@ This shifts the draft's 18-minute open investigation to 20 minutes and shortens 
 
 - [Table guide](docs/table-guide.md): the simple participant instructions.
 - [Student demonstration guide](docs/student-demo.md): short explanations and what to show in Claude Code.
+- [Report out](report-out/README.md): one section per submitted table, with a summary and full analysis.
+- [Submission steps](docs/report-out.md): name your table, review its result, and ask Claude to push it.
 - [Facilitation rules](docs/facilitation.md): pacing and agent behavior shared by all five skills.
 - [Prepared case](materials/advisory-firm-case.md): fictional firm, work, and starting assumptions.
 - [Source cards](materials/source-cards.md): short attributed evidence summaries available offline.
@@ -131,11 +134,21 @@ This shifts the draft's 18-minute open investigation to 20 minutes and shortens 
 
 The skill supplies a process. It does not establish that Claude's claims or imagined stakeholder reactions are true. See Anthropic's [explanation of Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills).
 
-## Save and share
+## Report out: name your table and push its results
 
-Use `outputs/table-01-scenario-brief.md` (change the table number). If Claude cannot write files, copy its brief into a local document. Keep it to about 350–450 words plus source links. Review it before sharing. Use public examples and fictional numbers; omit confidential company, client, employee, or student information.
+Collect your ideas and ask Claude for a succinct paragraph. Review it together, then have the table choose its own name. Each table's Markdown analysis is named **`[table-name]-[industry]-analysis.md`** and saved under `report-out/`. The [Report out page](report-out/README.md) gets a section for each submitted table, with its paragraph summary and a link to the full analysis.
 
-This kit is published in the Vanderbilt AI Studies [GitHub repository](https://github.com/vanderbilt-ai-studies/chancellors-circle-ai-workshop). It includes no attendee profiles, emails, or internal planning attachments. Students can download the whole repository ZIP without signing in once the repository is public. Share the whole kit; the individual skills use shared materials here. Your table's local `outputs/` files are ignored by Git by default and are not included in repository downloads.
+For example, **Future Builders** discussing **Healthcare Operations** would submit `future-builders-healthcare-operations-analysis.md`. Replace those labels with your table's choices in this final prompt:
+
+```text
+Our table is named Future Builders. Our industry is Healthcare Operations. We have reviewed the report and its one-paragraph summary. Save it as report-out/future-builders-healthcare-operations-analysis.md using the report template. Commit and push it to the workshop repository and include our table in the Report out page. Follow docs/report-out.md and give us the published link when verified.
+```
+
+Claude should ask for any missing table name, save a well-formatted report using [the template](templates/scenario-brief.md), and use the [submission helper](scripts/publish_report.py) only after your request to push. It commits only your table's report and the generated index, preserves other tables' reports, and handles simultaneous submissions. Use public examples and omit confidential company, client, employee, or student information.
+
+The four student facilitators have repository admin access. Their own GitHub sign-in and Git author details must work on their laptops. Downloading a public ZIP alone does not authenticate a push. The helper can submit from a ZIP folder by using a separate temporary clone. If access or connectivity fails, keep the report and ask Jesse to push it; do not treat a local save as a finished submission. Full instructions are in [docs/report-out.md](docs/report-out.md).
+
+This kit is published in the Vanderbilt AI Studies [GitHub repository](https://github.com/vanderbilt-ai-studies/chancellors-circle-ai-workshop). Share the whole kit; the skills use shared materials. Scratch files in `outputs/` stay ignored by Git; reviewed reports in `report-out/` are intentionally published.
 
 ## Maintainer checks
 
@@ -144,6 +157,7 @@ Python 3 is needed only for the optional calculator and validation:
 ```bash
 python3 scripts/simulate.py
 python3 scripts/validate_kit.py
+python3 -m unittest discover -s tests -v
 ```
 
 The PDFs can be rebuilt with `python3 scripts/build_printables.py` if ReportLab is installed. Runtime requirements for normal workshop use are only a working Claude Code session, or the printed backup. See [validation notes](docs/validation.md) for what has and has not been tested.

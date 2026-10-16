@@ -55,7 +55,11 @@ Ask: “What did it miss?” “Who sees this differently?” “What should we 
 
 At minute 16, type: **“We have four minutes left. Draft our brief now.”** Read it together. Keep the table's disagreement and make sure the draft reflects what people actually said.
 
-## 6. Make the handoff useful
+## 6. Name the table and publish its reviewed report
+
+Ask Claude to collect the table's ideas into a succinct one-paragraph summary. Review it together, then ask the table to choose its own name.
+
+Give Claude the chosen name and industry and ask it to save, commit, and push the report as `report-out/[table-name]-[industry]-analysis.md`. Use the exact final prompt in [the submission instructions](report-out.md). Confirm Claude returns a verified published link and that your table has its own section in [Report out](../report-out/README.md). If a push fails, keep the local file and ask Jesse to submit it.
 
 The brief describes a possible industry future and what people would still need to contribute. It will inform the discussion about preparing students. One implication for a new graduate is enough here; the next session can explore preparation in depth. Keep the brief ready whether or not students join that session.
 

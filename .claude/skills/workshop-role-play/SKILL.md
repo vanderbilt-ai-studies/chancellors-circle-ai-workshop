@@ -35,6 +35,8 @@ Say: “Let's step out of character.” Ask: “What did we assume about these p
 
 Use `templates/scenario-brief.md`. Include the decision, central conflict, revised proposal, remaining objection, human contribution, and a stakeholder question to investigate. The already-happening section needs genuine sources or an explicit evidence gap. Do not cite the role-play as proof of acceptance or resistance.
 
+Collect the table's ideas into a succinct one-paragraph summary and review it together. Ask the table to name itself. Follow `docs/report-out.md` to save `report-out/[table-name]-[industry]-analysis.md`; prompt the student to provide the chosen name and ask for the reviewed results to be committed and pushed. Publish only after that request, and return the verified report link.
+
 ## Basis
 
 A shortened adaptation of IDEO.org's Role Play, with a reflection step informed by AHRQ debriefing. The original activity generally takes longer; AI-generated roles are an additional workshop device. See `docs/methods-and-sources.md`.

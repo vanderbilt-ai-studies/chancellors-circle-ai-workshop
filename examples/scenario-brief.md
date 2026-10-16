@@ -2,6 +2,10 @@
 
 Industry: professional services | Approach: simulation | Horizon: 2030
 
+## Summary
+
+In this fictional example, faster drafting does not automatically mean more completed client work. The prepared model makes senior review the bottleneck: output falls from 12 to eight briefs under the initial agent assumptions. If review time can fall without losing quality, capacity could rise to 16. These are conditional calculations, not measured business results. People still need to understand clients, verify claims, and own the outcome. A small pilot measuring complete-workflow time and quality would help test the main uncertainty: whether reliable review can scale.
+
 ## 1. The change we investigated
 Could a small firm use agents to serve more clients with public-information briefs? Our starting hypothesis was that faster drafts would increase completed work. This is a fictional demonstration, not a record of a table's views.
 

@@ -33,6 +33,8 @@ Offer a short chain: task change -> workflow change -> service or competitive co
 
 Use `templates/scenario-brief.md`. Include the best evidence with boundaries, a plausible future, assumptions, the strongest challenge, and one observation that could change the conclusion. Save or display the brief as the shared rules require.
 
+Collect the table's ideas into a succinct one-paragraph summary and review it together. Ask the table to name itself. Follow `docs/report-out.md` to save `report-out/[table-name]-[industry]-analysis.md`; prompt the student to provide the chosen name and ask for the reviewed results to be committed and pushed. Publish only after that request, and return the verified report link.
+
 ## Basis
 
 This is a **workshop evidence scan**, not a systematic or formal rapid review. Adapted principles: focused question, explicit selection limits, source checking, and transparent uncertainty. See the research entry in `docs/methods-and-sources.md` for the Cochrane methods source and the limits of this adaptation.

@@ -33,6 +33,8 @@ Offer a short pilot plan: a responsible role, a small scope, comparison with the
 
 Ask what changed in the table's thinking, then use `templates/scenario-brief.md`. Capture the obstacle, chosen response and alternative, new constraint, revised plan, and small test. State what remains untested. Include a genuine current finding with a source or an explicit evidence gap. Do not claim the obstacle has been solved because a plan exists.
 
+Collect the table's ideas into a succinct one-paragraph summary and review it together. Ask the table to name itself. Follow `docs/report-out.md` to save `report-out/[table-name]-[industry]-analysis.md`; prompt the student to provide the chosen name and ask for the reviewed results to be committed and pushed. Publish only after that request, and return the verified report link.
+
 ## Basis
 
 Informed by ASQ's Plan-Do-Check-Act cycle and GO-Science policy stress-testing. This exercise does the planning and a paper challenge; actual doing, checking, and acting would happen after a real authorized test. See `docs/methods-and-sources.md`.

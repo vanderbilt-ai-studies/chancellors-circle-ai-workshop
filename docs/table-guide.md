@@ -6,8 +6,9 @@
 2. **Pick one change.** Finish: “AI agents might make it possible to ___.” Say what you expect before you begin.
 3. **Choose one way to explore it.** Pick from the five options below. You can switch as your questions change.
 4. **Try it for 20 minutes.** Ask questions. Challenge the answers. Add your experience.
-5. **Test it.** What would make this fail? Who might resist? What are we assuming?
-6. **Write one page together.** What did you find? What could happen? What must people still do? What changed in your thinking?
+5. **Test it.** Are these reasonable conclusions? What are we assuming? What would make this fail?
+6. **Write one page together.** Collect your ideas, and ask Claude to make a succinct, one-paragraph summary. Review it together.
+7. **Name your table and submit.** Choose a table name. Ask Claude to save and push your reviewed report to the repo as `[table-name]-[industry]-analysis.md` in **Report out**.
 
 | Choose this | To ask this | Do this together |
 | --- | --- | --- |

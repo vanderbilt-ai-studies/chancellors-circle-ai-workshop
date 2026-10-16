@@ -33,6 +33,8 @@ Ask: “What important cost, quality check, or handoff is missing?” Then offer
 
 Use `templates/scenario-brief.md`. Include assumptions, baseline and changed output, bottleneck, one sensitivity comparison, one model limitation, and a real measurement that would test it. “Already happening” uses a relevant source card if appropriate or states that no direct industry evidence was collected. Keep invented arithmetic out of the evidence section.
 
+Collect the table's ideas into a succinct one-paragraph summary and review it together. Ask the table to name itself. Follow `docs/report-out.md` to save `report-out/[table-name]-[industry]-analysis.md`; prompt the student to provide the chosen name and ask for the reviewed results to be committed and pushed. Publish only after that request, and return the verified report link.
+
 ## Basis
 
 Use explicit case design and a debrief (AHRQ), with sensitivity to assumptions informed by NIST. This is our workshop capacity model, not a validated model from either source. Details and boundaries are in `docs/methods-and-sources.md`.
