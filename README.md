@@ -12,14 +12,14 @@ An agent can use tools to research, calculate, and create files. A **skill** is 
 
 ## Friday, October 16: bring your laptop
 
-- **Meet at 1:45 p.m. Central** at the [Seigenthaler Center](https://maps.app.goo.gl/6peyyH6PKakXd3KA9), next to the Commons Campus. Allow time to get there.
-- **Workshop: 2:10–3:00 p.m.** Download the kit at check-in and get Claude Code ready on your own laptop. Bring your charger.
-- We **might** join the following session led by Vice Provost Everette Fortner and Dean Matt Johnson-Roberson. Jesse will confirm on site.
+- **Meet at 1:45 p.m. Central** at the [Seigenthaler Center](https://maps.app.goo.gl/6peyyH6PKakXd3KA9), next to the Commons Campus. Allow time to get there. Download the kit at check-in and get Claude Code ready on your own laptop. Bring your charger.
+- **Workshop: 2:10–3:00 p.m.** 
 - You will help the table work, demonstrate Claude Code and skills, explain what the agent is doing, and contribute your own perspective. Ask Jesse whenever you are unsure.
+- - We **might** join the following session led by Vice Provost Everette Fortner and Dean Matt Johnson-Roberson. Jesse will confirm on site.
 
 ## Student guide: do these six things
 
-1. At check-in, download and extract the **whole folder**, including the hidden `.claude` folder. Open it in **Claude Code on your laptop**. Follow the setup steps below.
+1. At check-in, have Claude access and prepare all the skills in this repo. Follow the setup steps below.
 2. Have [the table guide](output/pdf/table-guide.pdf) and [the worksheet](output/pdf/scenario-worksheet.pdf) ready. For printing, the organizer needs one guide per participant and one worksheet per table. Save the [backup pack](output/pdf/backup-pack.pdf) on your laptop.
 3. Ask: **“Which industry do we know? What is one change worth exploring?”** Record the table's first expectation before asking Claude for analysis. If the table is stuck after one minute, offer the prepared advisory-firm case.
 4. Help the table pick **research, simulation, role playing, forecasting, or problem solving**. Show its `SKILL.md` file, then type its `/workshop-...` command into Claude Code. Start a 20-minute timer. Read each question aloud; let people answer before typing.
