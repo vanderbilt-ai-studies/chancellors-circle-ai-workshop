@@ -19,6 +19,8 @@ Open the chosen file in an editor or ask Claude Code to display it:
 | Research | `.claude/skills/workshop-research/SKILL.md` | `/workshop-research` |
 | Simulation | `.claude/skills/workshop-simulation/SKILL.md` | `/workshop-simulation` |
 | Role playing | `.claude/skills/workshop-role-play/SKILL.md` | `/workshop-role-play` |
+| Forecasting | `.claude/skills/workshop-forecasting/SKILL.md` | `/workshop-forecasting` |
+| Problem solving | `.claude/skills/workshop-problem-solving/SKILL.md` | `/workshop-problem-solving` |
 
 Say: “A skill is a reusable set of instructions, with any materials the agent needs. This one tells Claude how to lead our exercise.”
 
@@ -34,13 +36,15 @@ Type the command into the **Claude Code conversation**, not your laptop's shell.
 
 Let the table supply its initial expectation before Claude starts analyzing. Say: “You choose the direction. I will help operate Claude Code.”
 
-## 4. Explain one real action
+## 4. Explain one real action or analysis step
 
 Use the example that matches what actually happened:
 
 - **Research:** “It opened this source. Let's check what the source actually supports.” If using prepared cards, say it read a prepared summary; do not describe that as live research.
 - **Simulation:** “It calculated the result from these assumptions. We can change an assumption and compare.” If the code did not execute, say you are using the worked example.
 - **Role playing:** “It is helping us try another perspective. An imagined reaction gives us a question to test with real people.”
+- **Forecasting:** “It drafted two possible futures. Let's check what would have to be true for each and what signs we could watch.” These are scenarios, not established predictions.
+- **Problem solving:** “It compared responses to this obstacle. Let's add a constraint and see which response still works.” A proposed test does not establish that a solution works.
 - **Saving:** “It is putting our conclusions in a file we can review and revise.” Say this only if it saved a file; otherwise copy the displayed brief.
 
 A skill supplies instructions; tools let the agent take actions. Neither guarantees the answer is correct. Invite a correction and show Claude how to revise its work.
@@ -55,4 +59,4 @@ At minute 16, type: **“We have four minutes left. Draft our brief now.”** Re
 
 The brief describes a possible industry future and what people would still need to contribute. It will inform the discussion about preparing students. One implication for a new graduate is enough here; the next session can explore preparation in depth. Keep the brief ready whether or not students join that session.
 
-Forecasting and problem solving are optional extensions. Introduce them only if useful after the table has begun with one of the three main approaches.
+Offer all five approaches equally. The table chooses one to begin and can switch if another question becomes more useful. Keep the same notes and remaining time; no table needs to complete all five.

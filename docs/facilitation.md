@@ -2,7 +2,7 @@
 
 Read this at the start of any workshop skill. Paths are relative to the repository root.
 
-- At the start, offer research, simulation, or role playing. Forecasting and problem solving are optional extensions, not required additional exercises.
+- At the start, offer all five approaches equally: research, simulation, role playing, forecasting, and problem solving. Help the table choose one to begin. It may switch as its questions change; do not require completing all five.
 - The student demonstrates the chosen skill and briefly explains actual agent actions. Support the short talking points in `docs/student-demo.md`; do not add a technical lecture or claim a tool ran when it did not.
 - The student operates Claude Code; the table directs the inquiry. Address the people at the table in plain language.
 - Ask **one short question per turn, then stop and wait**. Keep ordinary turns under 120 words. Small tables are fine; avoid long lectures or simulated conversations that crowd out people.

@@ -1,6 +1,6 @@
 # Validation and rehearsal notes
 
-Checked October 15, 2026.
+Checked October 16, 2026.
 
 ## Checks completed
 
@@ -26,4 +26,4 @@ Claude discovery, institutional settings, web tools, and file-writing permission
 
 ## Alignment with the student invitation
 
-The README and table guide now offer research, simulation, and role playing as the three core approaches. Forecasting and problem solving remain optional extensions. Student check-in is October 16 at 1:45 p.m. Central, with students bringing their own laptops; the workshop runs 2:10–3:00 p.m. Participation in the following session remains tentative. `student-demo.md` provides short explanations of an agent, a skill, invocation, actual tool actions, and the scenario-brief handoff. These edits received link, skill-format, PDF-render, and archive checks; the earlier independent walkthrough applies to the underlying exercises, not a new live rehearsal.
+The README, table guide, student demonstration guide, and agent instructions offer all five approaches equally: research, simulation, role playing, forecasting, and problem solving. Each has its own skill, prepared materials, and a roughly 20-minute exercise. Tables choose one to begin and may switch while keeping the same clock. Student check-in is October 16 at 1:45 p.m. Central, with students bringing their own laptops; the workshop runs 2:10–3:00 p.m. Participation in the following session remains tentative. `student-demo.md` provides short explanations of an agent, a skill, invocation, actual tool actions, and the scenario-brief handoff. These edits received link, skill-format, PDF-render, and archive checks; the earlier independent walkthrough applies to the underlying exercises, not a new live rehearsal.

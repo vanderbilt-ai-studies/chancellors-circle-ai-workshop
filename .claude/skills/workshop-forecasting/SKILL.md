@@ -1,11 +1,9 @@
 ---
 name: workshop-forecasting
-description: Optional workshop extension. Lead a 20-minute comparison of faster and slower AI-agent adoption scenarios over three to five years. Use when a table wants assumptions, contrasting futures, and observable signposts rather than a single prediction.
+description: Lead a 20-minute comparison of faster and slower AI-agent adoption scenarios over three to five years. Use when a table wants assumptions, contrasting futures, and observable signposts rather than a single prediction.
 ---
 
 # Forecasting: how might the future unfold?
-
-This is an optional extension. The workshop begins with research, simulation, or role playing; use this extension when the table requests it.
 
 Read `docs/facilitation.md` first. It sets the one-question-at-a-time interaction, evidence labels, switching behavior, and four-minute wrap-up. All paths below are relative to the repository root. Use the supplied topic and time; ask only for what is missing. Ask for the table's initial expectation before doing analysis. If no topic is chosen, offer `materials/advisory-firm-case.md` and wait for agreement.
 

@@ -20,19 +20,21 @@ An agent can use tools to research, calculate, and create files. A **skill** is 
 1. At check-in, download and extract the **whole folder**, including the hidden `.claude` folder. Open it in **Claude Code on your laptop**. Follow the setup steps below.
 2. Have [the table guide](output/pdf/table-guide.pdf) and [the worksheet](output/pdf/scenario-worksheet.pdf) ready. For printing, the organizer needs one guide per participant and one worksheet per table. Save the [backup pack](output/pdf/backup-pack.pdf) on your laptop.
 3. Ask: **“Which industry do we know? What is one change worth exploring?”** Record the table's first expectation before asking Claude for analysis. If the table is stuck after one minute, offer the prepared advisory-firm case.
-4. Help the table pick **research, simulation, or role playing**. Show its `SKILL.md` file, then type its `/workshop-...` command into Claude Code. Start a 20-minute timer. Read each question aloud; let people answer before typing.
+4. Help the table pick **research, simulation, role playing, forecasting, or problem solving**. Show its `SKILL.md` file, then type its `/workshop-...` command into Claude Code. Start a 20-minute timer. Read each question aloud; let people answer before typing.
 5. At minute 16, type **“We have four minutes left. Draft our brief now from what we have.”** Read the draft aloud and correct it together.
 6. Save the brief, then prepare a 30-second report: **“We explored ___. We were surprised by ___. Our biggest uncertainty is ___.”** Follow the organizer's instructions for handing it over. Nothing is sent automatically.
 
-## Choose one of the three workshop approaches
+## Choose one of the five workshop approaches
 
 | If the table asks… | Choose | Paste into Claude Code |
 | --- | --- | --- |
 | “Is this really happening?” | Research | `/workshop-research` |
 | “What changes if this becomes easier?” | Simulation | `/workshop-simulation` |
 | “Who would welcome or resist this?” | Role playing | `/workshop-role-play` |
+| “What could make change faster or slower?” | Forecasting | `/workshop-forecasting` |
+| “What is the biggest obstacle, and could we overcome it?” | Problem solving | `/workshop-problem-solving` |
 
-**Optional extensions:** forecasting (`/workshop-forecasting`) and problem solving (`/workshop-problem-solving`) remain available if a table wants to go further. They are not extra exercises to complete. Start with one of the three choices above.
+**Choose one approach to begin. Change approaches if another question becomes more useful. You do not need to complete all five.** Each has its own skill and a roughly 20-minute exercise, including a first brief.
 
 Add your industry and proposed change after the command, or let Claude ask. Example:
 
@@ -43,7 +45,7 @@ Add your industry and proposed change after the command, or let Claude ask. Exam
 To begin without deciding, paste:
 
 ```text
-Read CLAUDE.md and docs/facilitation.md. Help our table choose research, simulation, or role playing. Ask one short question at a time. Do not analyze the topic until we have recorded our initial expectation. We have 20 minutes after choosing.
+Read CLAUDE.md and docs/facilitation.md. Help our table choose research, simulation, role playing, forecasting, or problem solving. Ask one short question at a time. Do not analyze the topic until we have recorded our initial expectation. We have 20 minutes after choosing.
 ```
 
 You can change approaches. Say: **“Switch to role playing. Keep our notes. We have eight minutes left.”** Claude should run only the useful next step and protect time for the brief. Do not restart another 20-minute exercise.
@@ -54,7 +56,7 @@ You can change approaches. Say: **“Switch to role playing. Keep our notes. We 
 
 1. Download and unzip the kit, or clone its repository if the organizer supplies a remote URL. Keep the folder intact; do not copy only the visible Markdown files.
 2. Open Claude Code in the `table-workshop` folder. If using a terminal with Claude Code already installed, change into the folder and run `claude`.
-3. Confirm `/workshop-research`, `/workshop-simulation`, and `/workshop-role-play` are available. The two optional extension commands may appear too. If they are missing, use the explicit-file prompt below. Do not spend table time troubleshooting skill discovery.
+3. Confirm all five commands are available: `/workshop-research`, `/workshop-simulation`, `/workshop-role-play`, `/workshop-forecasting`, and `/workshop-problem-solving`. If they are missing, use the explicit-file prompt below. Do not spend table time troubleshooting skill discovery.
 4. Do a quick check with the prepared case: invoke a skill and confirm that it asks one question and waits. Ask it to read a source card; if possible, save a practice note in `outputs/` and run the simulation. You do not need to finish a 20-minute exercise during check-in. Use a fresh chat for the actual table.
 5. Check Claude Code sign-in, approved account, power, Wi-Fi, and the backup PDFs. The exercises need no extra package installation, API key, or connector once Claude Code is working. Live research needs web access; each exercise has an offline path. If setup stalls, ask Jesse and use the paper backup.
 
@@ -99,7 +101,7 @@ Invite each person to contribute, including yourself. You are a participant as w
 | 40–47 (2:50–2:57) | Revise and agree on the one-page brief |
 | 47–50 (2:57–3:00) | Report one surprise or uncertainty |
 
-This shifts the draft's 18-minute open investigation to 20 minutes and shortens the separate stress test by two minutes. The exercise already includes a challenge round. If the instructor keeps the original 12–30 window, type **“18 minutes total”**; shorten exploration by two minutes and retain the final four minutes for the brief. Complete one core exercise. The two extension skills are optional. Later discussion can use another approach without restarting.
+This shifts the draft's 18-minute open investigation to 20 minutes and shortens the separate stress test by two minutes. The exercise already includes a challenge round. If the instructor keeps the original 12–30 window, type **“18 minutes total”**; shorten exploration by two minutes and retain the final four minutes for the brief. Begin with one exercise. Later discussion can use any of the other approaches without restarting the clock.
 
 ## What is in this repository?
 
@@ -113,7 +115,7 @@ This shifts the draft's 18-minute open investigation to 20 minutes and shortens 
 - [Simulation worked example](materials/simulation-worked-example.md) and [calculator](scripts/simulate.py): no external dependencies.
 - [Brief template](templates/scenario-brief.md), [worked brief](examples/scenario-brief.md), and [five sample exercise outputs](examples/approach-outputs.md).
 - [Methods and sources](docs/methods-and-sources.md): the research behind each approach and what we shortened.
-- `.claude/skills/`: three core skills and two optional extensions. Open one to show what instructions look like.
+- `.claude/skills/`: five short, readable skills with equal standing as starting options. Open one to show what instructions look like.
 - `output/pdf/`: ready-to-print table guide, worksheet, and backup pack.
 - `outputs/`: your table's local working files. Git ignores these by default.
 

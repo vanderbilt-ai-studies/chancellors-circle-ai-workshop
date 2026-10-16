@@ -1,6 +1,6 @@
 # If Claude is unavailable
 
-Start with research, simulation, or role playing below. Forecasting and problem solving are optional extensions. One person keeps time. Another writes. Use the case, evidence cards, and other resources in the backup pack. The examples are fictional; the source cards describe real studies with limits. Every exercise ends with the same six-part brief.
+Choose any one of the five approaches below: research, simulation, role playing, forecasting, or problem solving. You can switch if another question becomes more useful; keep the same clock. One person keeps time. Another writes. Use the case, evidence cards, and other resources in the backup pack. The examples are fictional; the source cards describe real studies with limits. Every exercise ends with the same six-part brief.
 
 ## Research: is it happening?
 
@@ -33,7 +33,7 @@ Changing only agent review time to 0.75 hours gives 16 completed briefs in the p
 
 Imagined reactions are hypotheses. They are not survey findings or evidence that customers would buy the service.
 
-## Optional: forecasting
+## Forecasting: what could make change faster or slower?
 
 - **0–2:** Pick a concrete change by 2030. Say what you currently expect.
 - **2–6:** Choose one uncertain driver: review quality, data access, customer trust, or implementation capacity.
@@ -44,7 +44,7 @@ Imagined reactions are hypotheses. They are not survey findings or evidence that
 
 These are possible paths, not calibrated predictions. Any proposed threshold is an assumption to discuss, not an industry benchmark.
 
-## Optional: problem solving
+## Problem solving: what could stop this from working?
 
 - **0–2:** Define success. Say what you expect. Example: more completed briefs at equal quality.
 - **2–6:** Pick the main obstacle. In the prepared model, review is limiting; the reason for slow review remains untested.
