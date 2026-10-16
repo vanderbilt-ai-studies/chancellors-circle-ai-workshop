@@ -4,6 +4,14 @@ Each table names itself and contributes one reviewed analysis. Each section belo
 
 Reports are named `[table-name]-[industry]-analysis.md`. See [how to submit](../docs/report-out.md).
 
+## JACSS — Healthcare Access
+
+**Approach(es):** Simulation, with brief live research · **Date:** 2026-10-16
+
+We explored whether AI agents, with a clinician reviewing every recommendation, could route rural and after-hours patients to the right level of care. In our fictional model of 100 callers, correctly routed patients rose from 51 to 90. Most of that gain came from answering everyone, not from the agent being smarter. When we cut demand to a more realistic 15 callers, the gain nearly disappeared. Studies in Australia and Portugal suggest AI-plus-nurse triage is already in use, mostly after hours, but we found no rural U.S. evaluation. Clinicians remain essential for review, overrides, and trust. Our biggest uncertainty is whether rural areas lack a staffed line at all.
+
+[Read the full analysis](jacss-healthcare-access-analysis.md)
+
 ## Second Opinion — Healthcare
 
 **Approach(es):** Simulation (setup only), Forecasting · **Date:** 2026-10-16
