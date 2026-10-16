@@ -1,6 +1,6 @@
 # What could change in an industry you know?
 
-**You talk. The student helps run Claude Code. Together, you judge the work.**
+**In this 20 minute exercise, your student AI guide will run Claude Code (you can as well if you like), and answer questions. Together, you run and evaluate an analysis of the industry you choose for your table.**
 
 1. **Pick an industry.** Choose one someone at the table knows.
 2. **Pick one change.** Finish: “AI agents might make it possible to ___.” Say what you expect before you begin.

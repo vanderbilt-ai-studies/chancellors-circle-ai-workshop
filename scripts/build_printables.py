@@ -205,7 +205,7 @@ def table_guide():
     rows = [[cell.strip() for cell in line.strip('|').split('|')]
             for line in text.splitlines() if line.startswith('|') and '---' not in line]
     story = [callout('Our question', 'Choose an industry you know. What could AI agents make possible in the next three to five years?', dark=True),
-             Spacer(1,8), p('**You talk. The student helps run Claude Code. Together, you judge the work.**'),
+             Spacer(1,8), p('**In this 20 minute exercise, your student AI guide will run Claude Code (you can as well if you like), and answer questions. Together, you run and evaluate an analysis of the industry you choose for your table.**'),
              Label('Discussion steps')]
     story += [numbered(number, body) for number, body in steps[:6]]
     story += [Spacer(1,4), Label('Choose your approach'), grid(rows), Spacer(1,10),
