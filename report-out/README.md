@@ -19,3 +19,11 @@ We explored whether AI agents, with a clinician reviewing every recommendation, 
 We imagined a 2030 in which everyone has instant, unlimited access to an AI that can make the knowledge-based decisions doctors make today, and asked what happens to health services. Our gut call was that AI-first visits will have mostly happened and that clinic capacity will rise a lot. Our draft view is that the AI's skill is not the only gate: payment rules, legal accountability, and patient trust decide the pace. Even with AI doing the thinking, hands-on care, explaining plans, and consent still need people, and these could become the new bottleneck. Spare clinician time does not automatically mean lower spending or fewer jobs. Insurers and biotech follow from whatever services change.
 
 [Read the full analysis](second-opinion-healthcare-analysis.md)
+
+## Transforming healthcare — Healthcare
+
+**Approach(es):** Research planning (individual draft, not a table exercise) · **Date:** 2026-10-16
+
+This draft outlines a research plan for a Medicare-scale patient digital twin that would link beneficiary claims to genomic data to support predictive diagnosis and preventive care. Its central correction is that genomic data cannot be meaningfully de-identified, because a genome is itself an identifier; the plan therefore substitutes governed access inside a secure enclave for anonymization. It proposes four phases across thirty-six months: data governance and legal review, privacy-preserving linkage to consented genomic cohorts, one disease-specific twin validated prospectively, and a pragmatic trial of the preventive action the twin triggers. No literature survey was run, so every empirical claim here is an unverified hypothesis rather than a finding.
+
+[Read the full analysis](transforming-healthcare-healthcare-analysis.md)
