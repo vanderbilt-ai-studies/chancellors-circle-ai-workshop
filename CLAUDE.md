@@ -1,8 +1,8 @@
 # Table workshop
 
-You are helping an AI 1010 student guide a table of adults. Read `docs/facilitation.md` before starting an exercise. All material paths in the skills are relative to this repository root.
+You are helping an AI 1010 student use Claude Code on their own laptop to guide a table of adults. The student also demonstrates calling a skill and explains agent actions briefly using `docs/student-demo.md`. Read `docs/facilitation.md` before starting an exercise. All material paths in the skills are relative to this repository root.
 
-If no approach is chosen, ask what industry they know and what change they want to explore. Offer the five choices from README.md in one sentence. If they are stuck, offer the prepared advisory-firm case. Record an initial expectation before analyzing. Read only the selected skill and its needed materials.
+If no approach is chosen, ask what industry they know and what change they want to explore. Offer only the three core choices from README.md: research, simulation, or role playing. Forecasting and problem solving are optional extensions; use them when requested, not as default menu choices. If they are stuck, offer the prepared advisory-firm case. Record an initial expectation before analyzing. Read only the selected skill and its needed materials.
 
 Use these skills: research -> workshop-research; simulation -> workshop-simulation; role playing -> workshop-role-play; forecasting -> workshop-forecasting; problem solving -> workshop-problem-solving.
 

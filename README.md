@@ -1,6 +1,6 @@
 # What becomes possible when teams have AI agents?
 
-A table workshop for the Chancellor's Circle, with an AI 1010 student helping each table use Claude. **Start here. You do not need to know how to code.**
+A table workshop for the Chancellor's Circle, with an AI 1010 student helping each table use **Claude Code**. **Start here. You do not need to know how to code.**
 
 ## The task
 
@@ -8,24 +8,31 @@ Choose an industry you know. Explore one important change AI agents could make p
 
 An agent can use tools to research, calculate, and create files. A **skill** is a reusable folder of instructions that teaches the agent how to do a particular kind of work. Here, each skill runs one discussion exercise. People supply experience, challenge the work, and decide what to keep.
 
+## Friday, October 16: bring your laptop
+
+- **Meet at 1:45 p.m. Central** at the [Seigenthaler Center](https://maps.app.goo.gl/6peyyH6PKakXd3KA9), next to the Commons Campus. Allow time to get there.
+- **Workshop: 2:10–3:00 p.m.** Download the kit at check-in and get Claude Code ready on your own laptop. Bring your charger.
+- We **might** join the following session led by Vice Provost Everette Fortner and Dean Matt Johnson-Roberson. Jesse will confirm on site.
+- You will help the table work, demonstrate Claude Code and skills, explain what the agent is doing, and contribute your own perspective. Ask Jesse whenever you are unsure.
+
 ## Student guide: do these six things
 
-1. Before the session, get the **whole folder**, including the hidden `.claude` folder. Open it in Claude Code, or give a folder-capable Claude session access to it. A repository link alone does not guarantee file access. See setup below.
-2. Print [the table guide](output/pdf/table-guide.pdf), one per participant, and [the worksheet](output/pdf/scenario-worksheet.pdf), one per table. Keep a copy of the [backup pack](output/pdf/backup-pack.pdf) on the laptop.
+1. At check-in, download and extract the **whole folder**, including the hidden `.claude` folder. Open it in **Claude Code on your laptop**. Follow the setup steps below.
+2. Have [the table guide](output/pdf/table-guide.pdf) and [the worksheet](output/pdf/scenario-worksheet.pdf) ready. For printing, the organizer needs one guide per participant and one worksheet per table. Save the [backup pack](output/pdf/backup-pack.pdf) on your laptop.
 3. Ask: **“Which industry do we know? What is one change worth exploring?”** Record the table's first expectation before asking Claude for analysis. If the table is stuck after one minute, offer the prepared advisory-firm case.
-4. Help the table pick **one** approach below. Paste its start prompt. Start a 20-minute timer. Read each question aloud; let people answer before typing.
+4. Help the table pick **research, simulation, or role playing**. Show its `SKILL.md` file, then type its `/workshop-...` command into Claude Code. Start a 20-minute timer. Read each question aloud; let people answer before typing.
 5. At minute 16, type **“We have four minutes left. Draft our brief now from what we have.”** Read the draft aloud and correct it together.
 6. Save the brief, then prepare a 30-second report: **“We explored ___. We were surprised by ___. Our biggest uncertainty is ___.”** Follow the organizer's instructions for handing it over. Nothing is sent automatically.
 
-## Choose an approach
+## Choose one of the three workshop approaches
 
 | If the table asks… | Choose | Paste into Claude Code |
 | --- | --- | --- |
 | “Is this really happening?” | Research | `/workshop-research` |
 | “What changes if this becomes easier?” | Simulation | `/workshop-simulation` |
 | “Who would welcome or resist this?” | Role playing | `/workshop-role-play` |
-| “How could the future unfold differently?” | Forecasting | `/workshop-forecasting` |
-| “What is stopping this from working?” | Problem solving | `/workshop-problem-solving` |
+
+**Optional extensions:** forecasting (`/workshop-forecasting`) and problem solving (`/workshop-problem-solving`) remain available if a table wants to go further. They are not extra exercises to complete. Start with one of the three choices above.
 
 Add your industry and proposed change after the command, or let Claude ask. Example:
 
@@ -36,36 +43,40 @@ Add your industry and proposed change after the command, or let Claude ask. Exam
 To begin without deciding, paste:
 
 ```text
-Read CLAUDE.md and docs/facilitation.md. Help our table choose one of the five workshop skills. Ask one short question at a time. Do not analyze the topic until we have recorded our initial expectation. We have 20 minutes after choosing.
+Read CLAUDE.md and docs/facilitation.md. Help our table choose research, simulation, or role playing. Ask one short question at a time. Do not analyze the topic until we have recorded our initial expectation. We have 20 minutes after choosing.
 ```
 
 You can change approaches. Say: **“Switch to role playing. Keep our notes. We have eight minutes left.”** Claude should run only the useful next step and protect time for the brief. Do not restart another 20-minute exercise.
 
-## Setup before people arrive
+## Setup at the 1:45 p.m. student check-in
 
 ### Claude Code: project skills
 
 1. Download and unzip the kit, or clone its repository if the organizer supplies a remote URL. Keep the folder intact; do not copy only the visible Markdown files.
 2. Open Claude Code in the `table-workshop` folder. If using a terminal with Claude Code already installed, change into the folder and run `claude`.
-3. Confirm the five `/workshop-...` commands are available. If they are missing, use the explicit-file prompt below. Do not spend table time troubleshooting skill discovery.
-4. Run one practice exercise with the prepared case. Confirm Claude can read the source cards, write an output file, and run the simulation if available. Use a fresh chat for the actual table.
-5. Check sign-in, approved account, power, Wi-Fi, and the backup PDFs. No extra package installation, API key, or connector is required for the exercises. Live research needs web access; all five have an offline path.
+3. Confirm `/workshop-research`, `/workshop-simulation`, and `/workshop-role-play` are available. The two optional extension commands may appear too. If they are missing, use the explicit-file prompt below. Do not spend table time troubleshooting skill discovery.
+4. Do a quick check with the prepared case: invoke a skill and confirm that it asks one question and waits. Ask it to read a source card; if possible, save a practice note in `outputs/` and run the simulation. You do not need to finish a 20-minute exercise during check-in. Use a fresh chat for the actual table.
+5. Check Claude Code sign-in, approved account, power, Wi-Fi, and the backup PDFs. The exercises need no extra package installation, API key, or connector once Claude Code is working. Live research needs web access; each exercise has an offline path. If setup stalls, ask Jesse and use the paper backup.
 
 Anthropic documents project skills in `.claude/skills/` and the `SKILL.md` format in its [Claude Code skills guide](https://code.claude.com/docs/en/skills). Product and organization settings may affect availability. Setup documentation checked October 15, 2026.
 
-### Folder-capable Claude, including a configured Cowork session
+### If a command is missing
 
-Give the session access to this extracted folder using the folder controls available in your environment. Then paste:
+Paste this directly into Claude Code, replacing the skill folder name if needed:
 
 ```text
-Read README.md, CLAUDE.md, docs/facilitation.md, and .claude/skills/workshop-role-play/SKILL.md in this folder. Follow that skill to guide us through a 20-minute exercise using the prepared case. Ask one short question, then wait for us. Tell us immediately if you cannot read a named file.
+Read CLAUDE.md, docs/facilitation.md, and .claude/skills/workshop-role-play/SKILL.md. Follow that skill to guide our table through a 20-minute exercise. Ask one short question and wait for us. Tell us if any file is unreadable.
 ```
 
-Replace `workshop-role-play` with your chosen skill's folder name. This is an explicit file-reading workflow; it does not depend on automatic skill installation. If hidden files cannot be selected, have the student open the chosen `SKILL.md` in a text editor and paste its text, followed by `docs/facilitation.md`, `materials/advisory-firm-case.md`, `materials/source-cards.md`, and `templates/scenario-brief.md` into the chat. Add `materials/role-cards.md` for role playing, `materials/constraint-cards.md` for problem solving, or `materials/simulation-worked-example.md` for simulation. The full kit ZIP is a distribution archive, not an individually installable Claude.ai skill ZIP.
+If Claude Code itself is unavailable, ask Jesse. [Alternative access instructions](docs/alternative-access.md) are available as a backup.
 
 ### If Claude or Wi-Fi fails
 
 Open [the backup pack](output/pdf/backup-pack.pdf). Follow the chosen exercise on paper, using its source cards and worked numbers. A person keeps time and another takes notes. The table can still produce the same brief. For a different industry without web access, mark evidence gaps rather than treating the prepared case's studies as evidence about that industry.
+
+## Explain what is happening while you work
+
+Use the short talking points in [the student demonstration guide](docs/student-demo.md). Show the skill file and its command once, then name a real tool action as it happens. Keep each explanation to one or two sentences so the table stays involved.
 
 ## What to say while guiding
 
@@ -81,18 +92,19 @@ Invite each person to contribute, including yourself. You are a participant as w
 
 | Session minute | Activity |
 | --- | --- |
-| 0–8 | Instructor introduction |
-| 8–12 | Choose industry, change, initial expectation, and approach |
-| 12–32 | One complete 20-minute exercise, including a first brief |
-| 32–40 | Stress-test: what fails, who resists, what evidence points elsewhere? |
-| 40–47 | Revise and agree on the one-page brief |
-| 47–50 | Report one surprise or uncertainty |
+| 0–8 (2:10–2:18) | Instructor introduction |
+| 8–12 (2:18–2:22) | Choose industry, change, initial expectation, and approach |
+| 12–32 (2:22–2:42) | One complete 20-minute exercise, including a first brief |
+| 32–40 (2:42–2:50) | Stress-test: what fails, who resists, what evidence points elsewhere? |
+| 40–47 (2:50–2:57) | Revise and agree on the one-page brief |
+| 47–50 (2:57–3:00) | Report one surprise or uncertainty |
 
-This shifts the draft's 18-minute open investigation to 20 minutes and shortens the separate stress test by two minutes. The exercise already includes a challenge round. If the instructor keeps the original 12–30 window, type **“18 minutes total”**; shorten exploration by two minutes and retain the final four minutes for the brief. Do one exercise, not all five. Later discussion can use another approach without restarting.
+This shifts the draft's 18-minute open investigation to 20 minutes and shortens the separate stress test by two minutes. The exercise already includes a challenge round. If the instructor keeps the original 12–30 window, type **“18 minutes total”**; shorten exploration by two minutes and retain the final four minutes for the brief. Complete one core exercise. The two extension skills are optional. Later discussion can use another approach without restarting.
 
 ## What is in this repository?
 
 - [Table guide](docs/table-guide.md): the simple participant instructions.
+- [Student demonstration guide](docs/student-demo.md): short explanations and what to show in Claude Code.
 - [Facilitation rules](docs/facilitation.md): pacing and agent behavior shared by all five skills.
 - [Prepared case](materials/advisory-firm-case.md): fictional firm, work, and starting assumptions.
 - [Source cards](materials/source-cards.md): short attributed evidence summaries available offline.
@@ -101,7 +113,7 @@ This shifts the draft's 18-minute open investigation to 20 minutes and shortens 
 - [Simulation worked example](materials/simulation-worked-example.md) and [calculator](scripts/simulate.py): no external dependencies.
 - [Brief template](templates/scenario-brief.md), [worked brief](examples/scenario-brief.md), and [five sample exercise outputs](examples/approach-outputs.md).
 - [Methods and sources](docs/methods-and-sources.md): the research behind each approach and what we shortened.
-- `.claude/skills/`: five short, readable skills. Open one to show what instructions look like.
+- `.claude/skills/`: three core skills and two optional extensions. Open one to show what instructions look like.
 - `output/pdf/`: ready-to-print table guide, worksheet, and backup pack.
 - `outputs/`: your table's local working files. Git ignores these by default.
 
@@ -130,4 +142,4 @@ python3 scripts/simulate.py
 python3 scripts/validate_kit.py
 ```
 
-The PDFs can be rebuilt with `python3 scripts/build_printables.py` if ReportLab is installed. Runtime requirements for normal workshop use are only a working Claude session, or the printed backup. See [validation notes](docs/validation.md) for what has and has not been tested.
+The PDFs can be rebuilt with `python3 scripts/build_printables.py` if ReportLab is installed. Runtime requirements for normal workshop use are only a working Claude Code session, or the printed backup. See [validation notes](docs/validation.md) for what has and has not been tested.

@@ -22,4 +22,8 @@ An independent agent conducted compressed offline walkthroughs of all five skill
 4. Say “four minutes left.” Confirm a brief appears and can be saved or copied.
 5. Open all backup PDFs offline. Confirm the student knows how to keep time and collect the brief.
 
-Claude discovery, institutional settings, web tools, and file-writing permissions have not been tested on the loaner configuration. Twenty minutes is the facilitation target; actual time depends on the group and tool response times. The student should shorten exploration and protect the final four minutes.
+Claude discovery, institutional settings, web tools, and file-writing permissions have not been tested on the students' own laptops. Twenty minutes is the facilitation target; actual time depends on the group and tool response times. The student should shorten exploration and protect the final four minutes.
+
+## Alignment with the student invitation
+
+The README and table guide now offer research, simulation, and role playing as the three core approaches. Forecasting and problem solving remain optional extensions. Student check-in is October 16 at 1:45 p.m. Central, with students bringing their own laptops; the workshop runs 2:10–3:00 p.m. Participation in the following session remains tentative. `student-demo.md` provides short explanations of an agent, a skill, invocation, actual tool actions, and the scenario-brief handoff. These edits received link, skill-format, PDF-render, and archive checks; the earlier independent walkthrough applies to the underlying exercises, not a new live rehearsal.

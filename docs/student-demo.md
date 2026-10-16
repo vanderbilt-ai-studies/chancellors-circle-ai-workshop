@@ -1,0 +1,58 @@
+# Student guide: explain it as you do it
+
+Meet Friday, October 16 at **1:45 p.m. Central** at the Seigenthaler Center. Bring your laptop and charger. The workshop runs **2:10–3:00 p.m.** Ask Jesse if you are unsure. Participation in the following session is possible; he will confirm.
+
+You help run Claude Code, explain what is happening, and contribute your perspective. The table chooses the industry and the approach. Keep explanations short and return to the discussion.
+
+## 1. Explain an agent in one sentence
+
+“An AI agent can work toward a goal by taking steps, using tools, checking the results, and adjusting what it does next.”
+
+Point to an actual action when it happens: reading a file, searching a source, running a calculation, or saving the brief. Which actions are available depends on the session's tools and permissions.
+
+## 2. Show the skill before you call it
+
+Open the chosen file in an editor or ask Claude Code to display it:
+
+| The table chooses | File to show | Command to type in Claude Code |
+| --- | --- | --- |
+| Research | `.claude/skills/workshop-research/SKILL.md` | `/workshop-research` |
+| Simulation | `.claude/skills/workshop-simulation/SKILL.md` | `/workshop-simulation` |
+| Role playing | `.claude/skills/workshop-role-play/SKILL.md` | `/workshop-role-play` |
+
+Say: “A skill is a reusable set of instructions, with any materials the agent needs. This one tells Claude how to lead our exercise.”
+
+Point to `name` and `description`, then one timed step and a reference to a prepared file. Say: “We can read these instructions and change them. Calling the skill gives Claude this process to follow.”
+
+## 3. Call it in front of the table
+
+Type the command into the **Claude Code conversation**, not your laptop's shell. Add the industry and question. For example:
+
+```text
+/workshop-research Our industry is retail. Could agents help a small retailer compare new product ideas? Lead us one step at a time. We have 20 minutes.
+```
+
+Let the table supply its initial expectation before Claude starts analyzing. Say: “You choose the direction. I will help operate Claude Code.”
+
+## 4. Explain one real action
+
+Use the example that matches what actually happened:
+
+- **Research:** “It opened this source. Let's check what the source actually supports.” If using prepared cards, say it read a prepared summary; do not describe that as live research.
+- **Simulation:** “It calculated the result from these assumptions. We can change an assumption and compare.” If the code did not execute, say you are using the worked example.
+- **Role playing:** “It is helping us try another perspective. An imagined reaction gives us a question to test with real people.”
+- **Saving:** “It is putting our conclusions in a file we can review and revise.” Say this only if it saved a file; otherwise copy the displayed brief.
+
+A skill supplies instructions; tools let the agent take actions. Neither guarantees the answer is correct. Invite a correction and show Claude how to revise its work.
+
+## 5. Keep people involved
+
+Ask: “What did it miss?” “Who sees this differently?” “What should we change?” Do not turn the demonstration into a lecture. If you do not know an answer, say so and ask Jesse.
+
+At minute 16, type: **“We have four minutes left. Draft our brief now.”** Read it together. Keep the table's disagreement and make sure the draft reflects what people actually said.
+
+## 6. Make the handoff useful
+
+The brief describes a possible industry future and what people would still need to contribute. It will inform the discussion about preparing students. One implication for a new graduate is enough here; the next session can explore preparation in depth. Keep the brief ready whether or not students join that session.
+
+Forecasting and problem solving are optional extensions. Introduce them only if useful after the table has begun with one of the three main approaches.

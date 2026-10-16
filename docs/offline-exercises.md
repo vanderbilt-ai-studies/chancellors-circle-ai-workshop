@@ -1,6 +1,6 @@
 # If Claude is unavailable
 
-Use one exercise below. One person keeps time. Another writes. Use the case, evidence cards, and other resources in the backup pack. The examples are fictional; the source cards describe real studies with limits. Every exercise ends with the same six-part brief.
+Start with research, simulation, or role playing below. Forecasting and problem solving are optional extensions. One person keeps time. Another writes. Use the case, evidence cards, and other resources in the backup pack. The examples are fictional; the source cards describe real studies with limits. Every exercise ends with the same six-part brief.
 
 ## Research: is it happening?
 
@@ -33,7 +33,7 @@ Changing only agent review time to 0.75 hours gives 16 completed briefs in the p
 
 Imagined reactions are hypotheses. They are not survey findings or evidence that customers would buy the service.
 
-## Forecasting: which future?
+## Optional: forecasting
 
 - **0–2:** Pick a concrete change by 2030. Say what you currently expect.
 - **2–6:** Choose one uncertain driver: review quality, data access, customer trust, or implementation capacity.
@@ -44,7 +44,7 @@ Imagined reactions are hypotheses. They are not survey findings or evidence that
 
 These are possible paths, not calibrated predictions. Any proposed threshold is an assumption to discuss, not an industry benchmark.
 
-## Problem solving: what is stopping it?
+## Optional: problem solving
 
 - **0–2:** Define success. Say what you expect. Example: more completed briefs at equal quality.
 - **2–6:** Pick the main obstacle. In the prepared model, review is limiting; the reason for slow review remains untested.

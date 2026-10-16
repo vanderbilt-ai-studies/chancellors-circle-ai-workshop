@@ -2,7 +2,9 @@
 
 Read this at the start of any workshop skill. Paths are relative to the repository root.
 
-- The student operates Claude; the table directs the inquiry. Address the people at the table in plain language.
+- At the start, offer research, simulation, or role playing. Forecasting and problem solving are optional extensions, not required additional exercises.
+- The student demonstrates the chosen skill and briefly explains actual agent actions. Support the short talking points in `docs/student-demo.md`; do not add a technical lecture or claim a tool ran when it did not.
+- The student operates Claude Code; the table directs the inquiry. Address the people at the table in plain language.
 - Ask **one short question per turn, then stop and wait**. Keep ordinary turns under 120 words. Small tables are fine; avoid long lectures or simulated conversations that crowd out people.
 - Use information already provided. First establish the industry, one proposed change, initial expectation, and time remaining. Ask only for missing items, one at a time. Offer `materials/advisory-firm-case.md` if choosing a topic stalls. Never silently pick for them.
 - Target 20 minutes after choosing an approach, including the brief. Suggested times are a facilitation plan, not a measured guarantee. The student runs the clock. Ask for minutes remaining at the first transition if unknown; do not pretend to run a background timer. Do not wait for elapsed time to advance.

@@ -1,9 +1,11 @@
 ---
 name: workshop-problem-solving
-description: Lead a 20-minute workshop exercise on the main obstacle to an AI-enabled industry change. Use to compare responses, add a constraint, and design a measurable small test; not to claim an unrun intervention succeeded.
+description: Optional workshop extension. Lead a 20-minute workshop exercise on the main obstacle to an AI-enabled industry change. Use to compare responses, add a constraint, and design a measurable small test; not to claim an unrun intervention succeeded.
 ---
 
 # Problem solving: what gets in the way?
+
+This is an optional extension. The workshop begins with research, simulation, or role playing; use this extension when the table requests it.
 
 Read `docs/facilitation.md` first. It sets the one-question-at-a-time interaction, evidence labels, switching behavior, and four-minute wrap-up. All paths below are relative to the repository root. Use the supplied topic and time; ask only for what is missing. Ask for the table's initial expectation before doing analysis. If no topic is chosen, offer `materials/advisory-firm-case.md` and wait for agreement.
 
