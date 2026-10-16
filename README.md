@@ -2,6 +2,8 @@
 
 A table workshop for the Chancellor's Circle, with an AI 1010 student helping each table use **Claude Code**. **Start here. You do not need to know how to code.**
 
+[GitHub repository](https://github.com/vanderbilt-ai-studies/chancellors-circle-ai-workshop) · [Download the whole kit](https://github.com/vanderbilt-ai-studies/chancellors-circle-ai-workshop/archive/refs/heads/main.zip)
+
 ## The task
 
 Choose an industry you know. Explore one important change AI agents could make possible in three to five years. Test what would have to be true. Leave with a one-page scenario brief.
@@ -54,8 +56,8 @@ You can change approaches. Say: **“Switch to role playing. Keep our notes. We 
 
 ### Claude Code: project skills
 
-1. Download and unzip the kit, or clone its repository if the organizer supplies a remote URL. Keep the folder intact; do not copy only the visible Markdown files.
-2. Open Claude Code in the `table-workshop` folder. If using a terminal with Claude Code already installed, change into the folder and run `claude`.
+1. Download and unzip the kit using the link above, or clone `https://github.com/vanderbilt-ai-studies/chancellors-circle-ai-workshop.git`. Keep the folder intact; do not copy only the visible Markdown files.
+2. Open Claude Code in the extracted or cloned repository folder: the folder containing `README.md` and `CLAUDE.md`. If using a terminal with Claude Code already installed, change into that folder and run `claude`.
 3. Confirm all five commands are available: `/workshop-research`, `/workshop-simulation`, `/workshop-role-play`, `/workshop-forecasting`, and `/workshop-problem-solving`. If they are missing, use the explicit-file prompt below. Do not spend table time troubleshooting skill discovery.
 4. Do a quick check with the prepared case: invoke a skill and confirm that it asks one question and waits. Ask it to read a source card; if possible, save a practice note in `outputs/` and run the simulation. You do not need to finish a 20-minute exercise during check-in. Use a fresh chat for the actual table.
 5. Check Claude Code sign-in, approved account, power, Wi-Fi, and the backup PDFs. The exercises need no extra package installation, API key, or connector once Claude Code is working. Live research needs web access; each exercise has an offline path. If setup stalls, ask Jesse and use the paper backup.
@@ -133,7 +135,7 @@ The skill supplies a process. It does not establish that Claude's claims or imag
 
 Use `outputs/table-01-scenario-brief.md` (change the table number). If Claude cannot write files, copy its brief into a local document. Keep it to about 350–450 words plus source links. Review it before sharing. Use public examples and fictional numbers; omit confidential company, client, employee, or student information.
 
-This kit is a standalone local Git repository. It includes no attendee profiles, emails, or internal planning attachments. It has no configured remote and nothing is published automatically. To distribute it, send the supplied ZIP or have the organizer publish this folder to an approved repository. Share the whole kit; the individual skills use shared materials here.
+This kit is published in the Vanderbilt AI Studies [GitHub repository](https://github.com/vanderbilt-ai-studies/chancellors-circle-ai-workshop). It includes no attendee profiles, emails, or internal planning attachments. Students can download the whole repository ZIP without signing in once the repository is public. Share the whole kit; the individual skills use shared materials here. Your table's local `outputs/` files are ignored by Git by default and are not included in repository downloads.
 
 ## Maintainer checks
 
