@@ -12,7 +12,7 @@ Checked October 15, 2026.
 
 ## Behavioral review
 
-An independent agent conducted compressed offline walkthroughs of all five skills using the prepared advisory-firm case, plausible participant replies, a disagreement, and a four-minute wrap-up interruption. It also checked a switch with eight minutes remaining. This was a model-generated facilitation simulation, **not execution inside Claude**, a live group test, or a measured 20-minute rehearsal. Review artifacts were kept outside the repository.
+An independent agent conducted compressed offline walkthroughs of all five skills using the prepared advisory-firm case, plausible participant replies, a disagreement, and a four-minute wrap-up interruption. It also checked a switch with eight minutes remaining. This was a model-generated facilitation simulation, **not execution inside Claude**, a live group test, or a measured 20-minute rehearsal. The six-section briefs contained 405–450 words including headings and links. The calculator was also executed with a table replacement of 0.9 review hours, producing 13 completed briefs; changing only review to 0.75 produced 16. No blocking issue was identified. Review artifacts were kept outside the repository.
 
 ## Rehearse on the actual laptop
 
